@@ -1,0 +1,430 @@
+h1 {
+    text-align: center;
+
+}
+
+
+body{
+    background-color: #6cadd0;
+    color:#555555; 
+    font: 12px Verdana, Arial;
+    line-height: 1.8em;
+    margin:0;
+}
+
+/*list styles*/
+ul {
+    
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  }
+  
+/* potion nav bar left*/
+li {
+    float: left;
+  }
+  
+
+/* style of the individual link box in nav bar*/
+
+li a {
+    display: block;
+    color: white;
+    font:14px verdana;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+/* Change the link color to a darker grey on hover */
+li a:hover {
+    background-color: #3db2f2;
+  }
+
+  button:hover {
+
+    opacity: 0.7;
+    
+    }
+/*positioning the echo logo*/
+
+#me{ 
+
+    margin: 250px auto 20px;
+    display: block;
+    width: 20%;
+    height: 20%;
+
+}
+
+#github{ 
+
+  position: absolute;
+  top: 290px;
+  left: 500px;
+  width: 5%;
+  height:6%;
+
+}
+
+#linkedin{ 
+
+  position: absolute;
+  top: 360px;
+  left: 480px;
+  height: 9%;
+
+}
+
+#mail{ 
+
+  position: absolute;
+  top: 310px;
+  left: 865px;
+  height: 7%;
+  
+
+}
+
+#greeting{
+
+    position: relative;
+    top: 150px;
+    font-family: "Courier New", monospace;
+    font-size: 40px;
+    color: white;
+
+}
+
+#bio{
+
+  position: relative;
+  top: 630px;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+#portfolio{
+
+  background-color: white;
+  position: relative;
+  top: 202px;
+  height: 2900px;
+
+}
+
+
+#me{ 
+
+  margin: 250px auto 20px;
+  display: block;
+  width: 20%;
+  height: 20%;
+
+}
+
+#text{
+
+  position: relative;
+  top: 25px;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  color: rgb(129, 124, 124);
+  margin: 100px;
+
+}
+
+#heading{
+
+  position: relative;
+  top: 70px;
+  font-size: 40px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+
+}
+
+#heading2{
+
+  position: relative;
+  top: -400px;
+  font-size: 40px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  color: rgb(129, 124, 124);
+
+}
+
+
+
+#projectpics{ 
+
+  height:250;
+  position:relative; 
+  bottom: -70px;
+  left: 220px;
+  display: block;
+
+}
+
+#projecttext{
+
+  position: relative;
+  top:-380px;
+  left: 360px;
+  width: 50%;
+  color:rgb(129, 124, 124);
+  
+  text-align:center;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+
+}
+
+#projectbutton{
+
+  background-color:#6cadd0;
+  color: white;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  padding: 15px 0px;
+  border: none; 
+  cursor: pointer;
+  width: 20%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -340px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#keeptrack {
+}
+
+#keeptrack .image,
+
+
+#keeptrack .text{ 
+  
+  transition: opacity 0.5s ease-in-out;
+  
+
+}
+
+#keeptrack .button {
+
+  text-decoration: none;
+  color: initial;
+  opacity:0;
+  transition: opacity 0.5s ease-in-out;
+
+
+}
+
+#keeptrack .text {
+  
+  opacity:0;
+
+}
+
+#keeptrack:hover .image {
+  
+  opacity:0;
+
+}
+
+#keeptrack:hover .text {
+  
+  opacity:1;
+
+}
+
+#keeptrack:hover .button {
+  opacity:1;
+  
+}
+
+#space {
+
+}
+
+#space .image,
+
+
+#space .text{ 
+  
+  transition: opacity 0.5s ease-in-out;
+  
+
+}
+
+#space .button {
+
+  text-decoration: none;
+  color: initial;
+  opacity:0;
+  transition: opacity 0.5s ease-in-out;
+
+}
+
+#space .text {
+  
+  opacity:0;
+
+}
+
+#space:hover .image {
+  
+  opacity:0;
+
+}
+
+#space:hover .text {
+  
+  opacity:1;
+
+}
+
+#space:hover .button {
+  opacity:1;
+  
+}
+
+#goblin {
+
+}
+
+#goblin .image,
+
+
+#goblin .text{ 
+  
+  transition: opacity 0.5s ease-in-out;
+  
+
+}
+
+#goblin .button {
+
+  text-decoration: none;
+  color: initial;
+  opacity:0;
+  transition: opacity 0.5s ease-in-out;
+
+}
+
+#goblin .text {
+  
+  opacity:0;
+
+}
+
+#goblin:hover .image {
+  
+  opacity:0;
+
+}
+
+#goblin:hover .text {
+  
+  opacity:1;
+
+}
+
+#goblin:hover .button {
+  opacity:1;
+  
+}
+
+#ball {
+
+}
+
+#ball .image,
+
+
+#ball .text{ 
+  
+  transition: opacity 0.5s ease-in-out;
+  
+
+}
+
+#ball .button {
+
+  text-decoration: none;
+  color: initial;
+  opacity:0;
+  transition: opacity 0.5s ease-in-out;
+
+}
+
+#ball .text {
+  
+  opacity:0;
+
+}
+
+#ball:hover .image {
+  
+  opacity:0;
+
+}
+
+#ball:hover .text {
+  
+  opacity:1;
+
+}
+
+#ball:hover .button {
+  opacity:1;
+  
+}
+
+
+
+#footer{
+
+
+  background-color:#6cadd0;
+  position: relative;
+  top: 120px;
+  height: 60px;
+  width: 100%;
+
+}
+
+#footertext{
+
+  color: white;
+  position: relative;
+  top: 20px;
+  text-align:center;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
